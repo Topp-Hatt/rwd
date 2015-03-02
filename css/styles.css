@@ -1,0 +1,25 @@
+/* Layout */
+.container {
+	background: pink;
+	margin: 0 auto;
+	width: 90%;
+}
+
+article section {
+	float: left;
+	padding: 2%;
+	width: 46%;
+}
+
+/* Adaptive content */
+iframe, img {
+	max-width: 100%;
+	width: 100%;
+}
+
+/* Desktop query*/
+@media screen and (min-width:960px ){
+	#home {
+		width: 300px;
+	}
+}
