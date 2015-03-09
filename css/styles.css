@@ -22,4 +22,29 @@ iframe, img {
 	#home {
 		width: 300px;
 	}
+	#youtube-big {
+		display: none;
+	}
+	#youtube-medium {
+		display: block;
+}
+
+/* Tablet query*/
+@media screen and (min-width:768px ){
+#youtube-big {
+		display: none;
+	}
+	#youtube-medium {
+		display: block;
+	}
+	
+}
+
+/* Mobile query*/
+@media screen and (min-width:480px ){
+	article section {
+		float: none;
+		width: 100%;
+	}
+	
 }
